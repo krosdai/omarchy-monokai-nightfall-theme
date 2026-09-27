@@ -1,9 +1,9 @@
-# Monokai for Omarchy
+# X Monokai for Omarchy
 
-An unofficial Omarchy theme named `monokai`. It uses the modern
-[Monokai Pro](https://monokai.pro/) palette (default "Pro" filter) rather than
-classic Monokai. It ships only colours and wallpapers, so nothing in it runs
-code on your machine.
+X Monokai is an unofficial Omarchy theme, installed as `x-monokai`. It uses
+the modern [Monokai Pro](https://monokai.pro/) palette (default "Pro" filter)
+rather than classic Monokai. It ships only colours and wallpapers, so nothing
+in it runs code on your machine.
 
 | Role | Colours |
 |------|---------|
@@ -29,12 +29,12 @@ Ristretto filter. This theme is the default Pro filter.
 Review this repository, then run:
 
 ```sh
-omarchy theme install https://github.com/krosdai/omarchy-monokai-theme.git
+omarchy theme install https://github.com/krosdai/omarchy-x-monokai-theme.git
 ```
 
 Or use _Install > Style > Theme_ in the Omarchy menu. Omarchy removes the
 `omarchy-` prefix and `-theme` suffix from the repository name, so the theme
-appears as `monokai`. Installing it also activates it. Update with
+appears as `x-monokai`. Installing it also activates it. Update with
 `omarchy theme update` and switch themes with the usual picker.
 
 The theme ships no Lua, terminal configs or `vscode.json`. Omarchy would drop
@@ -47,10 +47,30 @@ official Monokai Pro editor themes, install them yourself.
 Switch to another theme first, then run:
 
 ```sh
-omarchy theme remove monokai
+omarchy theme remove x-monokai
 ```
 
-This deletes `~/.config/omarchy/themes/monokai` and nothing else.
+This deletes `~/.config/omarchy/themes/x-monokai` and nothing else.
+
+### Migrating from `monokai`
+
+This theme was first published as `omarchy-monokai-theme`, which installed it
+as `monokai`. `omarchy theme update` keeps pulling into that old `monokai`
+folder, so it never becomes `x-monokai`. To move over, run the install command
+above; it adds `x-monokai` next to the old copy. Other Monokai themes also
+install as `monokai`, so once `x-monokai` is active, check where the old copy
+came from:
+
+```sh
+git -C ~/.config/omarchy/themes/monokai remote get-url origin
+```
+
+If the URL contains `krosdai/omarchy-monokai-theme`, for example
+`https://github.com/krosdai/omarchy-monokai-theme.git`, remove it:
+
+```sh
+omarchy theme remove monokai
+```
 
 ## Development
 
@@ -67,5 +87,5 @@ Omarchy is installed, they also resolve the palette with
 run the tests.
 
 The wallpapers in `backgrounds/` were generated with Codex image generation
-from the palette above. Monokai Pro is a trademark of Monokai; this project is
-not affiliated with or endorsed by it.
+from the palette above. X Monokai is not affiliated with or endorsed by
+Monokai, the maker of Monokai Pro.
