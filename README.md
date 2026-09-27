@@ -55,9 +55,11 @@ This deletes `~/.config/omarchy/themes/x-monokai` and nothing else.
 ### Migrating from `monokai`
 
 This theme was first published as `omarchy-monokai-theme`, which installed it
-as `monokai`. Installing the renamed repository adds `x-monokai` next to it
-rather than replacing it. Other Monokai themes also install as `monokai`, so
-once `x-monokai` is active, check where the old copy came from:
+as `monokai`. `omarchy theme update` keeps pulling into that old `monokai`
+folder, so it never becomes `x-monokai`. To move over, run the install command
+above; it adds `x-monokai` next to the old copy. Other Monokai themes also
+install as `monokai`, so once `x-monokai` is active, check where the old copy
+came from:
 
 ```sh
 git -C ~/.config/omarchy/themes/monokai remote get-url origin
