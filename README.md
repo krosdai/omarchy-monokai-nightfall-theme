@@ -65,7 +65,8 @@ came from:
 git -C ~/.config/omarchy/themes/monokai remote get-url origin
 ```
 
-If it prints `krosdai/omarchy-monokai-theme`, remove it:
+If the URL contains `krosdai/omarchy-monokai-theme`, for example
+`https://github.com/krosdai/omarchy-monokai-theme.git`, remove it:
 
 ```sh
 omarchy theme remove monokai
