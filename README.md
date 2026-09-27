@@ -1,8 +1,9 @@
-# Monokai Pro for Omarchy
+# Monokai for Omarchy
 
-An unofficial Omarchy theme using the [Monokai Pro](https://monokai.pro/)
-palette (default "Pro" filter). It ships only colours and wallpapers, so
-nothing in it runs code on your machine.
+An unofficial Omarchy theme named `monokai`. It uses the modern
+[Monokai Pro](https://monokai.pro/) palette (default "Pro" filter) rather than
+classic Monokai. It ships only colours and wallpapers, so nothing in it runs
+code on your machine.
 
 | Role | Colours |
 |------|---------|
