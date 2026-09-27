@@ -1,5 +1,7 @@
 # X Monokai for Omarchy
 
+![X Monokai on Omarchy: a terminal and Neovim beside the pencil grove wallpaper](screenshots/x-monokai.webp)
+
 X Monokai is an unofficial Omarchy theme, installed as `x-monokai`. It uses
 the modern [Monokai Pro](https://monokai.pro/) palette (default "Pro" filter)
 rather than classic Monokai. It ships only colours and wallpapers, so nothing
