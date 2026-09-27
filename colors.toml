@@ -1,0 +1,35 @@
+mode = "dark"
+
+# Monokai Pro, default "Pro" filter. Shades run darkest to lightest:
+# #19181a #221f22 #2d2a2e #403e41 #5b595c #727072 #939293 #c1c0c0 #fcfcfa
+accent = "#ffd866"
+selection = "#5b595c"
+muted = "#727072"
+
+background = "#2d2a2e"
+dark_background = "#221f22"
+darker_background = "#19181a"
+lighter_background = "#403e41"
+
+foreground = "#fcfcfa"
+dark_foreground = "#939293"
+light_foreground = "#c1c0c0"
+bright_foreground = "#fcfcfa"
+
+# Monokai Pro has no blue; its terminal palette puts orange in the blue slot.
+red = "#ff6188"
+yellow = "#ffd866"
+orange = "#fc9867"
+green = "#a9dc76"
+cyan = "#78dce8"
+blue = "#fc9867"
+magenta = "#ab9df2"
+brown = "#7e4c34"
+
+# The official terminal palette repeats the accents as its bright colors.
+bright_red = "#ff6188"
+bright_yellow = "#ffd866"
+bright_green = "#a9dc76"
+bright_cyan = "#78dce8"
+bright_blue = "#fc9867"
+bright_magenta = "#ab9df2"
