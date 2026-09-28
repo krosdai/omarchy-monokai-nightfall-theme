@@ -63,24 +63,22 @@ earlier install never becomes `monokai-nightfall`. To move over, run the
 install command above; it adds `monokai-nightfall` next to the old copy. Once
 `monokai-nightfall` is active, remove the old copy.
 
-An `x-monokai` install can only have come from this theme:
-
-```sh
-omarchy theme remove x-monokai
-```
-
-Other Monokai themes also install as `monokai`, so check where that copy came
-from first:
+The install name comes only from the repository name, so another theme could
+use the same one. Check where each old copy came from first:
 
 ```sh
 git -C ~/.config/omarchy/themes/monokai remote get-url origin
+git -C ~/.config/omarchy/themes/x-monokai remote get-url origin
 ```
 
-If the URL contains `krosdai/omarchy-monokai-theme`, for example
-`https://github.com/krosdai/omarchy-monokai-theme.git`, remove it:
+Remove only a copy whose URL contains `krosdai/omarchy-monokai-theme` or
+`krosdai/omarchy-x-monokai-theme`, for example
+`https://github.com/krosdai/omarchy-x-monokai-theme.git`, by running the
+matching command:
 
 ```sh
-omarchy theme remove monokai
+omarchy theme remove monokai    # URL contains krosdai/omarchy-monokai-theme
+omarchy theme remove x-monokai  # URL contains krosdai/omarchy-x-monokai-theme
 ```
 
 ## Development
