@@ -89,7 +89,7 @@ Omarchy is installed, they also resolve the palette with
 run the tests.
 
 The wallpapers in `backgrounds/` were generated with Codex image generation
-from the palette above. The default, a coloured-pencil grove, was then blended
-into a flat `#2d2a2e` outside the scene with ImageMagick, so it runs seamlessly
-behind windows. X Monokai is not affiliated with or endorsed by Monokai, the
+from the palette above. The coloured-pencil grove and horizon were then
+blended into a flat `#2d2a2e` outside the scene with ImageMagick, so they run
+seamlessly behind windows. X Monokai is not affiliated with or endorsed by Monokai, the
 maker of Monokai Pro.
