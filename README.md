@@ -1,6 +1,6 @@
 # Monokai Nightfall for Omarchy
 
-![Monokai Nightfall on Omarchy: a terminal and Neovim beside the pencil grove wallpaper](screenshots/desktop.webp)
+![Monokai Nightfall on Omarchy: Neovim, a terminal and btop beside the pencil grove wallpaper](screenshots/desktop.webp)
 
 Monokai Nightfall is an unofficial Omarchy theme, installed as
 `monokai-nightfall`. It uses the modern [Monokai Pro](https://monokai.pro/)
