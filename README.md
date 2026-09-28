@@ -54,33 +54,6 @@ omarchy theme remove monokai-nightfall
 
 This deletes `~/.config/omarchy/themes/monokai-nightfall` and nothing else.
 
-### Migrating from an earlier name
-
-This theme was first published as `omarchy-monokai-theme`, which installed it
-as `monokai`, and then as `omarchy-x-monokai-theme`, which installed it as
-`x-monokai`. `omarchy theme update` keeps pulling into the old folder, so an
-earlier install never becomes `monokai-nightfall`. To move over, run the
-install command above; it adds `monokai-nightfall` next to the old copy. Once
-`monokai-nightfall` is active, remove the old copy.
-
-The install name comes only from the repository name, so another theme could
-use the same one. Check where each old copy came from first:
-
-```sh
-git -C ~/.config/omarchy/themes/monokai remote get-url origin
-git -C ~/.config/omarchy/themes/x-monokai remote get-url origin
-```
-
-Remove only a copy whose URL contains `krosdai/omarchy-monokai-theme` or
-`krosdai/omarchy-x-monokai-theme`, for example
-`https://github.com/krosdai/omarchy-x-monokai-theme.git`, by running the
-matching command:
-
-```sh
-omarchy theme remove monokai    # URL contains krosdai/omarchy-monokai-theme
-omarchy theme remove x-monokai  # URL contains krosdai/omarchy-x-monokai-theme
-```
-
 ## Development
 
 ```sh
