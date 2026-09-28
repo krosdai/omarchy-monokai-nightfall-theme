@@ -4,8 +4,11 @@
 
 Monokai Nightfall is an unofficial Omarchy theme, installed as
 `monokai-nightfall`. It uses the modern [Monokai Pro](https://monokai.pro/)
-palette (default "Pro" filter) rather than classic Monokai. It ships only
-colours and wallpapers, so nothing in it runs code on your machine.
+palette (default "Pro" filter) rather than classic Monokai. Its light twin is
+[Monokai Daybreak](https://github.com/krosdai/omarchy-monokai-daybreak-theme),
+which uses the Monokai Pro Light "Sun" palette. Omarchy uses only Nightfall's
+colours, wallpapers and icon setting. The repository also carries its Python
+tests, but nothing runs them when you install or apply the theme.
 
 | Role | Colours |
 |------|---------|
@@ -37,7 +40,9 @@ omarchy theme install https://github.com/krosdai/omarchy-monokai-nightfall-theme
 Or use _Install > Style > Theme_ in the Omarchy menu. Omarchy removes the
 `omarchy-` prefix and `-theme` suffix from the repository name, so the theme
 appears as `monokai-nightfall`. Installing it also activates it. Update with
-`omarchy theme update` and switch themes with the usual picker.
+`omarchy theme update` and switch themes with the usual picker. An Omarchy
+theme has a single light or dark mode, so install Monokai Daybreak as well if
+you want to switch between the pair.
 
 The theme ships no Lua, terminal configs or `vscode.json`. Omarchy would drop
 those from a cloned theme anyway, and generates them from the palette instead.
