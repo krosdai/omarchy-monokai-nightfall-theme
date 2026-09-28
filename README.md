@@ -1,5 +1,7 @@
 # X Monokai for Omarchy
 
+![X Monokai on Omarchy: a terminal and Neovim beside the pencil grove wallpaper](screenshots/x-monokai.webp)
+
 X Monokai is an unofficial Omarchy theme, installed as `x-monokai`. It uses
 the modern [Monokai Pro](https://monokai.pro/) palette (default "Pro" filter)
 rather than classic Monokai. It ships only colours and wallpapers, so nothing
@@ -87,5 +89,7 @@ Omarchy is installed, they also resolve the palette with
 run the tests.
 
 The wallpapers in `backgrounds/` were generated with Codex image generation
-from the palette above. X Monokai is not affiliated with or endorsed by
-Monokai, the maker of Monokai Pro.
+from the palette above. The coloured-pencil grove and horizon were then
+blended into a flat `#2d2a2e` outside the scene with ImageMagick, so they run
+seamlessly behind windows. X Monokai is not affiliated with or endorsed by Monokai, the
+maker of Monokai Pro.
