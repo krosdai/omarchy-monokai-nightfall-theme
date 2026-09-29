@@ -78,6 +78,8 @@ class ThemeTest(unittest.TestCase):
         )
         backgrounds = sorted((ROOT / "backgrounds").iterdir())
         self.assertTrue(backgrounds)
+        # Omarchy applies the first background in sorted order.
+        self.assertEqual(backgrounds[0].name, "1-shooting-star.webp")
         for path in backgrounds:
             self.assertIn(path.suffix, {".jpg", ".png", ".webp"})
 
