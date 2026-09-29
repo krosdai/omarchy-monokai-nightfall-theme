@@ -76,5 +76,10 @@ run the tests.
 The wallpapers in `backgrounds/` were generated with Codex image generation
 from the palette above. The coloured-pencil grove and horizon were then
 blended into a flat `#2d2a2e` outside the scene with ImageMagick, so they run
-seamlessly behind windows. Monokai Nightfall is not affiliated with or endorsed
-by Monokai, the maker of Monokai Pro.
+seamlessly behind windows. The default wallpaper, `1-shooting-star.webp`, shows
+the robot Pululu dozing against a tree at first light, under a shooting star,
+while the flame spirit Spark sleeps in its lap. It was drawn at 2560×1440 with
+OpenAI's `gpt-image-2` from an earlier Codex scene, colour-matched to the
+grove's palette, blended into the same flat `#2d2a2e` and placed at its native
+size on a 3840×2160 sheet of that colour, so the scene stays sharp and small. Monokai Nightfall is not affiliated with or
+endorsed by Monokai, the maker of Monokai Pro.
