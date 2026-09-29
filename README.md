@@ -1,6 +1,6 @@
 # Monokai Nightfall for Omarchy
 
-![Monokai Nightfall on Omarchy: Neovim, a terminal and btop beside the pencil grove wallpaper](screenshots/desktop.webp)
+![Monokai Nightfall on Omarchy: Neovim, a terminal and btop beside the default wallpaper of Pululu stargazing in the grove](screenshots/desktop.webp)
 
 Monokai Nightfall is an unofficial Omarchy theme, installed as
 `monokai-nightfall`. It uses the modern [Monokai Pro](https://monokai.pro/)
@@ -76,5 +76,11 @@ run the tests.
 The wallpapers in `backgrounds/` were generated with Codex image generation
 from the palette above. The coloured-pencil grove and horizon were then
 blended into a flat `#2d2a2e` outside the scene with ImageMagick, so they run
-seamlessly behind windows. Monokai Nightfall is not affiliated with or endorsed
-by Monokai, the maker of Monokai Pro.
+seamlessly behind windows. The default wallpaper, `1-shooting-star.webp`, is
+that grove with the robot Pululu lounging against the middle tree to watch a
+shooting star, while the flame spirit Spark sits on its shoulder. OpenAI's
+`gpt-image-2` drew the characters and the star into the grove, which was then
+redrawn at 2560×1440 with its colours locked to the original drawing. It sits
+at its native size on a 3840×2160 sheet of `#2d2a2e`, so the scene stays sharp
+and small. Monokai Nightfall is not affiliated with or endorsed by Monokai, the
+maker of Monokai Pro.
